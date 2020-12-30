@@ -54,6 +54,22 @@ header {
   background-size: cover;
 }
 
+.section_home .home_word {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+.section_home .home_word .home_title_top {
+  color: rgb(219, 219, 219);
+  font-size: 100px;
+}
+
+.section_home .home_word .home_title_bottom {
+  color: rgb(199, 199, 199);
+  font-size: 50px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -79,5 +95,13 @@ footer img {
   }
   .navigation_bar a {
     font-size: 15px;
+  }
+  .section_home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("./images/bigbang_home_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
