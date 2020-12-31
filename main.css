@@ -8,11 +8,7 @@ body {
   font-family: Verdana;
 }
 
-.dark {
-  background-color: black;
-}
-
-.header {
+header {
   --text: #f4f4f4;
   --text-inverse: #333;
   --background: transparent;
@@ -24,10 +20,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 3em;
+  padding: 1em 2em;
   transition: background 250ms ease-in;
   background: var(--background);
   color: var(--text);
+}
+
+.dark {
+  background: #000000;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
 .bigbangLogo-header {
