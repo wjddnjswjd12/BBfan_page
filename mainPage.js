@@ -19,3 +19,8 @@ const sectionOneObserver = new IntersectionObserver(
 );
 
 sectionOneObserver.observe(sectionOne);
+
+var hiddenBox = $(".hidden_top");
+$(".top").on("click", function (event) {
+  hiddenBox.show();
+});

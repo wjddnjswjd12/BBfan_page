@@ -181,6 +181,14 @@ header {
   box-shadow: 10px 5px 5px rgb(59, 59, 59);
 }
 
+/* SECTION MEMBER HIDDEN BOX*/
+.hidden_top {
+  display: none;
+}
+.hidden_victory {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
