@@ -8,6 +8,10 @@ body {
   font-family: Impact, Charcoal, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   --text: #f4f4f4;
   --text-inverse: #333;
@@ -116,6 +120,21 @@ header {
 
 .section_about .BBInfo .info_title_font {
   font-family: Nanum Pen Script;
+}
+
+/* SECTION MAEMBERS */
+
+.section_members {
+  width: 100%;
+}
+
+.section_members .members {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secion_member .members li {
+  padding: 0;
+  margin: 0;
 }
 
 footer {
