@@ -182,11 +182,26 @@ header {
 }
 
 /* SECTION MEMBER HIDDEN BOX*/
-.hidden_top {
-  display: none;
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8%;
+  opacity: 0;
+  text-align: center;
 }
-.hidden_victory {
-  display: none;
+
+.image_overlay:hover {
+  opacity: 1;
 }
 
 footer {
