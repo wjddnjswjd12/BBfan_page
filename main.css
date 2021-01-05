@@ -204,6 +204,27 @@ header {
   opacity: 1;
 }
 
+/* MAIN ALBUMN SECTION */
+
+.section_albumns {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-albumns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-albumns img {
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  margin: 6px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
