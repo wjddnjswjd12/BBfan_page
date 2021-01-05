@@ -218,11 +218,72 @@ header {
   align-items: center;
 }
 
-.container-albumns img {
+.container-albumns li {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   border: 1px solid gray;
   width: 220px;
   height: 220px;
   margin: 30px;
+}
+
+.container-albumns li:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px rgb(59, 59, 59);
+}
+
+.a1 {
+  background: url(images/albumns/1.png);
+  background-size: cover;
+}
+
+.a2 {
+  background: url(images/albumns/2.jfif);
+  background-size: cover;
+}
+
+.a3 {
+  background: no-repeat url(images/albumns/3.jfif);
+  background-size: cover;
+}
+.a4 {
+  background: no-repeat url(images/albumns/4.jfif);
+  background-size: cover;
+}
+.a5 {
+  background: no-repeat url(images/albumns/5.jfif);
+  background-size: cover;
+}
+.a6 {
+  background: no-repeat url(images/albumns/6.jfif);
+  background-size: cover;
+}
+.a7 {
+  background: no-repeat url(images/albumns/7.png);
+  background-size: cover;
+}
+.a8 {
+  background: no-repeat url(images/albumns/8.jfif);
+  background-size: cover;
+}
+.a9 {
+  background: no-repeat url(images/albumns/9.jfif);
+  background-size: cover;
+}
+.a10 {
+  background: no-repeat url(images/albumns/10.jfif);
+  background-size: cover;
+}
+.a11 {
+  background: no-repeat url(images/albumns/11.jfif);
+  background-size: cover;
+}
+.a12 {
+  background: no-repeat url(images/albumns/12.jfif);
+  background-size: cover;
 }
 
 footer {
