@@ -306,6 +306,25 @@ header {
   background-size: cover;
 }
 
+.section_awards {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_awards table {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px black solid;
+}
+
+.secion_awards th,
+td {
+  border: 1px black solid;
+}
+
 footer {
   display: flex;
   flex-direction: column;
