@@ -19,3 +19,13 @@ const sectionOneObserver = new IntersectionObserver(
 );
 
 sectionOneObserver.observe(sectionOne);
+
+function play1() {
+  var audio = document.getElementById("audio_play1");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+}
