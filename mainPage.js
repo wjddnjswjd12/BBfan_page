@@ -20,8 +20,8 @@ const sectionOneObserver = new IntersectionObserver(
 
 sectionOneObserver.observe(sectionOne);
 
-function play1() {
-  var audio = document.getElementById("audio_play1");
+function play1(a) {
+  var audio = document.getElementById(`audio_play${a}`);
   if (audio.paused) {
     audio.play();
   } else {
